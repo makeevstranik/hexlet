@@ -1,0 +1,17 @@
+// see task here - https://ru.hexlet.io/challenges/js_data_pairs
+
+export const cons = (a, b) => Math.pow(2, a) * Math.pow(3, b);
+const getFact = (num, mult) => {
+  let counter = 0;
+  function runCounting(a) {
+    if (a % mult === 0) {
+      counter += 1;
+      runCounting(a / mult);
+    }
+  }
+  runCounting(num);
+  return counter;
+};
+
+export const car = pair => getFact(pair, 2);
+export const cdr = pair => getFact(pair, 3);

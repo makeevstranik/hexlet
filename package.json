@@ -1,0 +1,22 @@
+{
+  "name": "hexlet-practice",
+  "version": "1.0.0",
+  "description": "my practice from hexlet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makeevstranik/hexlet.git"
+  },
+  "author": "makeev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makeevstranik/hexlet/issues"
+  },
+  "homepage": "https://github.com/makeevstranik/hexlet#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
